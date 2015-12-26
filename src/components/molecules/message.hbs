@@ -1,0 +1,78 @@
+<li>
+	<div class="timeline-entry {{network}}-entry">
+		<div class="timeline-info">
+
+			<table id="timeline-username">
+			<tbody>
+				<tr>
+					<td>
+						<span class="timeline-user" title="facebook" target="_blank" href="{{url}}">Message title</span>
+						<br>
+							
+						<div class="timeline-time">
+							<span class="date">24/12/2015</span>
+							<span class="time">14:00</span>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+
+			<div class="network-icon"><i class="fa fa-{{network}}"></i></div>
+		</div>
+
+		<div class="timeline-icon">
+			<div class="timeline-avatar">
+				<a class="viewdetails"><img data-action="viewcontact" src="http://placehold.it/100x100"/></a>
+			</div>
+		</div>	
+
+		<div class="timeline-body-wrapper">
+
+			<div class="timeline-body">
+				<div class="arrow-shadow">
+					<a href="http://placehold.it/100x100" target="_blank"></a>
+					<i class="fa fa-chevron-right"></i>	
+				</div>
+				<div class="arrow-hidder">
+					<a href="http://placehold.it/100x100" target="_blank"></a>
+				</div>
+				<div class="timeline-body-user visible-xs-block">
+					<span class="timeline-user" title="title">Title</span>
+				</div>
+
+				<div class="timeline-entry-content">										
+					<strong>Message Title</strong><br />
+
+					This is the message content!
+
+				</div>
+			
+				<div class="timeline-entry-media">
+
+					<div class="media-clip"><i class="fa fa-paperclip"></i></div>
+					<a href="http://placehold.it/100x100" class="media-sphere message-img" style="background-image: url(http://placehold.it/100x100);"></a>
+
+					<div class="clearfix"></div>
+				</div>	
+
+				<div class="message-actions"></div>	
+
+				<div class="message-tags pull-right">
+					<ul class="tag-list">
+						{{> atoms/tag name="Tag 1" type="default"}}
+						<!-- <span class="label label-default">Default</span>
+						<span class="label label-primary">Primary</span>
+						<span class="label label-success">Success</span>
+						<span class="label label-info">Info</span>
+						<span class="label label-warning">Warning</span>
+						<span class="label label-danger">Danger</span> -->
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>	
+
+		</div>
+
+	</div>
+</li>
